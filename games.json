@@ -1,48 +1,47 @@
 [
-
-      {
+  {
     "name": "Deal or No Deal",
     "image": "cover.svg",
     "directory": "deal",
     "recommended": "1"
   },
-{
+  {
     "name": "Soccer Skills",
     "image": "cover.svg",
     "directory": "skills",
     "recommended": "1"
-  },      
-      {
+  },
+  {
     "name": "Slope 3",
     "image": "cover.svg",
     "directory": "slope3",
     "recommended": "1"
   },
-      {
+  {
     "name": "Snowball Fighter",
     "image": "cover.svg",
     "directory": "snow",
     "recommended": "1"
   },
-      {
+  {
     "name": "Spacebar Clicker",
     "image": "cover.svg",
     "directory": "space",
     "recommended": "1"
   },
-      {
+  {
     "name": "π Client",
     "image": "cover.svg",
     "directory": "pi",
     "recommended": "1"
   },
-     {
+  {
     "name": "Precision Client",
     "image": "cover.svg",
     "directory": "pre",
     "recommended": "1"
   },
-    {
+  {
     "name": "Shadow Client",
     "image": "cover.svg",
     "directory": "shadow",
@@ -54,73 +53,73 @@
     "directory": "xp",
     "recommended": "1"
   },
-             {
+  {
     "name": "Dragon Client",
     "image": "cover.svg",
     "directory": "drag",
     "recommended": "1"
   },
-            {
+  {
     "name": "Ayuncraft 1.5.2",
     "image": "cover.svg",
     "directory": "ayun",
     "recommended": "1"
   },
-      {
+  {
     "name": "Minecraft Infdev",
     "image": "cover.svg",
     "directory": "inf",
     "recommended": "1"
   },
-      {
+  {
     "name": "Minesweeper",
     "image": "cover.svg",
     "directory": "minesweeper",
     "recommended": "1"
   },
-      {
+  {
     "name": "POOM",
     "image": "cover.svg",
     "directory": "poom",
     "recommended": "1"
   },
-      {
+  {
     "name": "Solitaire",
     "image": "cover.svg",
     "directory": "solitaire",
     "recommended": "1"
   },
-      {
+  {
     "name": "Spank the Monkey",
     "image": "cover.svg",
     "directory": "spankthemonkey",
     "recommended": "1"
   },
-      {
+  {
     "name": "CMM Client",
     "image": "cover.svg",
     "directory": "cmm-client",
     "recommended": "1"
   },
-     {
+  {
     "name": "Pool",
     "image": "cover.svg",
     "directory": "pool",
     "recommended": "1"
-  }, 
-    {
+  },
+  {
     "name": "Yohoho.io",
     "image": "cover.svg",
     "directory": "yohoho",
     "recommended": "1"
   },
-    {
+  {
     "name": "Tube Jumpers",
     "image": "cover.svg",
     "directory": "tube-jumpers",
     "recommended": "1"
   },
-    {
+  {
     "name": "Hill Climb Racing 2",
     "image": "cover.svg",
     "directory": "hillclimbracing2",
@@ -1366,5 +1365,11 @@
     "name": "Watermelon Game",
     "directory": "watermelongame",
     "image": "assets/sprites/tittle.png"
+  },
+  {
+    "name": "xFPS Offline",
+    "image": "cover.svg",
+    "directory": "xfps-offline",
+    "recommended": "1"
   }
 ]
