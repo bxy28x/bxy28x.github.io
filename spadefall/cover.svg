@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c22"/><stop offset="1" stop-color="#283c32"/></linearGradient><linearGradient id="g" x2="0" y2="1"><stop stop-color="#8be06e"/><stop offset="1" stop-color="#327a45"/></linearGradient></defs>
+<rect width="640" height="360" fill="url(#bg)"/>
+<g fill="#42664a" opacity=".9"><path d="M0 260 110 175l75 52 95-112 90 95 88-70 182 130v90H0z"/><path d="M0 300 110 250l90 40 110-90 95 65 105-80 130 70v105H0z" fill="#294a39"/></g>
+<g fill="url(#g)" stroke="#b7f59b" stroke-width="3"><path d="M255 94h130v28h-34v31h-28v-31h-34v31h-28v-31h-34V94z"/><path d="M285 153h70v25h-70z"/><path d="M275 180h90v18h-90z"/></g>
+<text x="320" y="260" fill="#f4f7f2" text-anchor="middle" font-family="Arial,sans-serif" font-size="46" font-weight="800" letter-spacing="5">SPADE<tspan fill="#8be06e">FALL</tspan></text>
+<text x="320" y="292" fill="#c1d2c5" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" letter-spacing="4">DESTRUCTIBLE VOXEL SHOOTER</text>
+</svg>
