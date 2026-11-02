@@ -1371,5 +1371,11 @@
     "image": "cover.svg",
     "directory": "xfps-offline",
     "recommended": "1"
+  },
+  {
+    "name": "Spadefall",
+    "image": "cover.svg",
+    "directory": "spadefall",
+    "recommended": "1"
   }
 ]
