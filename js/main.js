@@ -82,17 +82,23 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function checkAlert() {
-	if (!Cookies.get("supportalert")) {
-		const dialog = document.querySelector(".dialog-width");
-		const openButton = dialog.nextElementSibling;
-		const closeButton = dialog.querySelector('sl-button[slot="footer"]');
-		setTimeout(() => {
-			dialog.removeAttribute("display");
-			dialog.show();
-		}, 250);
+	if (Cookies.get("supportalert")) return;
+
+	const dialog = document.querySelector(".dialog-width");
+	if (!dialog) return;
+
+	const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+	customElements.whenDefined("sl-dialog").then(() => {
+		dialog.style.removeProperty("display");
+		dialog.show();
+	});
+
+	if (closeButton) {
 		closeButton.addEventListener("click", () => dialog.hide());
-		Cookies.set("supportalert", true, { expires: 60 });
 	}
+
+	Cookies.set("supportalert", true, { expires: 60 });
 }
 function setPanicMode() {
 	if (!$("#panic").val().startsWith("https")) {
