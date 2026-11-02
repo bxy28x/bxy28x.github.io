@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: selenite-old-site
+    env: static
+    buildCommand: ""
+    staticPublishPath: "."
